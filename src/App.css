@@ -1,0 +1,119 @@
+.app {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.cache-form {
+  margin-bottom: 20px;
+}
+
+.cache-form input {
+  margin-right: 10px;
+  padding: 5px;
+}
+
+
+.cache-form button {
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+/* .cache-data ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.cache-data li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #f5f5f5;
+  border-radius: 4px;
+}
+
+.cache-data li span {
+  margin-right: 10px;
+}
+
+.cache-data li button {
+  padding: 5px 10px;
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+} */
+
+
+.cache-data {
+  margin-top: 20px;
+}
+
+.cache-data h2 {
+  margin-bottom: 10px;
+}
+
+.cache-data table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #ddd;
+}
+
+.cache-data th, .cache-data td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.cache-data th {
+  background-color: #f2f2f2;
+}
+
+.cache-data tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.cache-data tbody tr:hover {
+  background-color: #ddd;
+}
+
+.cache-data button {
+  padding: 6px 10px;
+  border: none;
+  background-color: #dc3545;
+  color: white;
+  cursor: pointer;
+}
+
+.cache-data button:hover {
+  background-color: #c82333;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pagination button {
+  margin: 0 5px;
+  padding: 10px 15px;
+  border: 1px solid #ddd;
+  background-color: #f2f2f2;
+  cursor: pointer;
+}
+
+.pagination button.active {
+  background-color: #007bff;
+  color: white;
+  border-color: #007bff;
+}
+
+.pagination button:hover:not(.active) {
+  background-color: #ddd;
+}
